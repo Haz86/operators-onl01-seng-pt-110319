@@ -12,6 +12,8 @@ unsafe?(45)
 def not_safe?(speed)
 	speed <40 || speed >60 ? "Unsafe" : "Safe"
 end
+
+unsafe?(45)
 	
 
 
